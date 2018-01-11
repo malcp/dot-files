@@ -5,6 +5,7 @@ set termencoding=utf-8
 set tabstop=4
 set softtabstop=0 noexpandtab
 set shiftwidth=4
+set cursorline
 
 syntax on
 
@@ -33,6 +34,10 @@ Plugin 'tpope/vim-surround'
 Plugin 'majutsushi/tagbar'
 Plugin 'godlygeek/tabular'
 Plugin 'szw/vim-tags'
+Plugin 'chriskempson/base16-vim'
+" Plugin 'vim-ctrlspace/vim-ctrlspace'
+Plugin 'tpope/vim-fugitive'
+Plugin 'airblade/vim-gitgutter'
 
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
